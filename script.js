@@ -1,4 +1,10 @@
-let js = "amaizing";
-if (js === "amaizing") alert("JavaScript is cool");
-let math = 40 + 8 + 23 - 10;
-alert(math);
+// let js = "amaizing";
+
+// let firstName = "Jonas";
+// console.log(firstName);
+
+// let country = "Ukaraine";
+// let continent = "Europe";
+// let population = "48m";
+
+// console.log(country, continent, population);
