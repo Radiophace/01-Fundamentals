@@ -18,20 +18,29 @@
 
 // const firstName = "Sergiy";
 // const lastName = "Zubenko";
+// const job = "tester";
+// const birthYear = 1988;
+// const now = 2025;
 // const fullName = firstName + " " + lastName;
-// console.log(fullName);
-// console.log(typeof fullName);
+// const sergiy =
+//   "I'm " + firstName + ", a " + (now - birthYear) + " years old " + job;
+// console.log(sergiy);
+
+// const sergiyNew = `I'm ${firstName}, a ${now - birthYear} years old ${job}`;
+// console.log(sergiyNew);
 
 // if (ageJonas > ageSarah) {
 //   console.log("Jonas is older then sarah");
 // }
 
-const userYear = 2020;
+const userName = "Sarah";
+const userYear = 1988;
 const now = 2025;
-const agePass = now - userYear;
+const ageNow = now - userYear;
+const agePass = ageNow >= 18;
 
-if (agePass >= 18) {
-  console.log("You're age is more then 18");
+if (agePass) {
+  console.log(`${userName}, is ${ageNow} and old enough to drive 🏎️`);
 } else {
-  console.log("too young");
+  console.log(`${userName}, is is ${ageNow} and too young to drive 🏎️`);
 }
